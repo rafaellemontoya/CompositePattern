@@ -45,7 +45,8 @@ public class CompositePattern {
                 true,
                 1.59));
 
-        // add more menu items here
+        /********EJERCICIO: Crear una clase hija de MenuComponent llamada MenuBares
+         * (Similar a MenuItem) que sea un menú para bares, agregar en MenuComponent el método contieneAlcohol ********/
         Waitress waitress = new Waitress(allMenus);
 
         waitress.printMenu();
